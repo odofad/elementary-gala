@@ -1,90 +1,267 @@
-# Afrikaans translation for switchboard
+# Afrikaans translation for gala
 # Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
-# This file is distributed under the same license as the switchboard package.
-# FIRST AUTHOR Odofad, 2014.
+# This file is distributed under the same license as the gala package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: switchboard\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-01 16:19+0000\n"
-"PO-Revision-Date: 2024-02-16 16:33+0200\n"
-"Last-Translator: odofad <odofad@gmail.com>\n"
-"Language-Team: Afrikaans <af@li.org>\n"
+"Project-Id-Version: gala\n"
+"Report-Msgid-Bugs-To: https://github.com/elementary/gala/issues\n"
+"POT-Creation-Date: 2023-11-07 19:57+0000\n"
+"PO-Revision-Date: 2024-02-17 18:51+0200\n"
+"Last-Translator: Odofad <https://github.com/odofad>\n"
+"Language-Team: Afrikaans <https://l10n.elementary.io/projects/desktop/gala/"
+"af/>\n"
 "Language: af\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-02-02 05:47+0000\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Poedit 3.4.2\n"
+"X-Launchpad-Export-Date: 2017-02-21 05:47+0000\n"
 
-#: src/Application.vala:24
-msgid "All Settings"
-msgstr "Alle Instellings"
-
-#: src/Application.vala:115
+#: src/Dialogs.vala:152
 #, c-format
-msgid "Specified link '%s' does not exist, going back to the main panel"
-msgstr "Gespesifiseerde skakel '%s' bestaan nie, gaan terug na die hoofpaneel"
+msgid "“%s” is not responding"
+msgstr "\"%s\" reageer nie"
 
-#: src/Application.vala:167 src/Application.vala:220
-msgid "System Settings"
-msgstr "Stelsel Instellings"
+#: src/Dialogs.vala:154
+msgid "Application is not responding"
+msgstr "Toepassing reageer nie"
 
-#: src/CategoryView.vala:28
-msgid "Search Settings"
-msgstr "Soek Instellings"
+#: src/Dialogs.vala:157
+msgid ""
+"You may choose to wait a short while for the application to continue, or "
+"force it to quit entirely."
+msgstr ""
+"U kan kies om 'n kort rukkie te wag totdat die toepassing voortgaan, of "
+"dwing om dit heeltemal op te hou."
 
-#: src/CategoryView.vala:40
-msgid "No Settings Found"
-msgstr "Geen instellings gevind nie"
+#: src/Dialogs.vala:158
+msgid "Force Quit"
+msgstr "Dwing om op te hou"
 
-#: src/CategoryView.vala:41
-msgid "Install settings plugins and re-launch System Settings."
-msgstr "Installeer instellingsinproppe en begin stelselinstellings weer."
+#: src/Dialogs.vala:159
+msgid "Wait"
+msgstr "Wag"
 
-#: src/CategoryView.vala:205
-msgid "Personal"
-msgstr "Persoonlik"
+#: src/ScreenshotManager.vala:281
+msgid "Screenshots"
+msgstr "Skermskote"
 
-#: src/CategoryView.vala:207
-msgid "Hardware"
-msgstr "Hardeware"
+#: src/ScreenshotManager.vala:360
+msgid "Screenshot taken"
+msgstr "Skermskote geneem"
 
-#: src/CategoryView.vala:209
-msgid "Network & Wireless"
-msgstr "Netwerk en draadloos"
-
-#: src/CategoryView.vala:211
-msgid "Administration"
-msgstr "Administrasie"
-
-#: src/SearchView.vala:30
-msgid "Try changing search terms."
-msgstr "Probeer soekterme verander."
-
-#: src/SearchView.vala:49
+#: src/WindowManager.vala:2251
 #, c-format
-msgid "No Results for “%s”"
-msgstr "Geen resultate vir “%s” nie"
+msgid "Changes will automatically revert after %i second."
+msgid_plural "Changes will automatically revert after %i seconds."
+msgstr[0] "Veranderinge sal outomaties na %i sekonde terugkeer."
+msgstr[1] "Veranderinge sal outomaties na %i sekondes terugkeer."
 
-#~ msgid "translator-credits"
-#~ msgstr ""
-#~ "Launchpad Contributions:\n"
-#~ "  Avi Romanoff https://launchpad.net/~aroman\n"
-#~ "  Jaycee Lock https://launchpad.net/~jaycee-lock"
+#: src/WindowManager.vala:2258
+msgid "Keep new display settings?"
+msgstr "Hou nuwe skerminstellings?"
 
-#~ msgid "Network and Wireless"
-#~ msgstr "Netwerk en Draadloos"
+#: src/WindowManager.vala:2262
+msgid "Keep Settings"
+msgstr "Hou instellings"
 
-#~ msgid "Install some and re-launch Switchboard"
-#~ msgstr "Installeer daarvan en herlaai Switchboard"
+#: src/WindowManager.vala:2263
+msgid "Use Previous Settings"
+msgstr "Gebruik vorige instellings"
 
-#~ msgid "No settings found"
-#~ msgstr "Geen instellings gevind nie"
+#. / TRANSLATORS: %s represents a timestamp here
+#: src/WindowManager.vala:2305
+#, c-format
+msgid "Screenshot from %s"
+msgstr "Skermskoot van %s"
 
-#~ msgid "Try changing your search terms"
-#~ msgstr "Probeer 'n ander soekterm"
+#: daemon/MenuDaemon.vala:115
+msgid "Hide"
+msgstr "Versteek"
 
-#~ msgid "Change system and user settings"
-#~ msgstr "Verander stelsel- en gebruikersinstellings"
+#: daemon/MenuDaemon.vala:128
+msgid "Move"
+msgstr "Skuif"
+
+#: daemon/MenuDaemon.vala:136
+msgid "Resize"
+msgstr "Vergroot"
+
+#: daemon/MenuDaemon.vala:144
+msgid "Always on Top"
+msgstr "Altyd bo-op"
+
+#: daemon/MenuDaemon.vala:152
+msgid "Always on Visible Workspace"
+msgstr "Altyd op sigbare werkruimte"
+
+#: daemon/MenuDaemon.vala:160
+msgid "Move to Workspace Left"
+msgstr "Skuif na werkruimte links"
+
+#: daemon/MenuDaemon.vala:168
+msgid "Move to Workspace Right"
+msgstr "Skuif na Workspace Right"
+
+#: daemon/MenuDaemon.vala:176
+msgid "Take Screenshot"
+msgstr "Neem 'n kiekie"
+
+#: daemon/MenuDaemon.vala:184
+msgid "Close"
+msgstr "Sluit"
+
+#: daemon/MenuDaemon.vala:223
+msgid "Untile"
+msgstr "Ontteel"
+
+#: daemon/MenuDaemon.vala:223
+msgid "Unmaximize"
+msgstr "Onmaksimeer"
+
+#: daemon/MenuDaemon.vala:225
+msgid "Maximize"
+msgstr "Maksimeer"
+
+#: daemon/MenuDaemon.vala:298
+msgid "Change Wallpaper…"
+msgstr "Verander muurpapier..."
+
+#: daemon/MenuDaemon.vala:315
+msgid "Display Settings…"
+msgstr "Vertoon instellings..."
+
+#: daemon/MenuDaemon.vala:332
+msgid "System Settings…"
+msgstr "Stelsel instellings..."
+
+#: data/gala.metainfo.xml.in:11
+msgid "Multitasking &amp; Window Management"
+msgstr "Multitasking en vensterbestuur"
+
+#: data/gala.metainfo.xml.in:12
+msgid "A window &amp; compositing manager for Pantheon"
+msgstr "'N Venster- en samestellingsbestuurder vir Pantheon"
+
+#: data/gala.metainfo.xml.in:14
+msgid ""
+"A window &amp; compositing manager based on libmutter and designed by "
+"elementary for use with Pantheon."
+msgstr ""
+"'N Venster- en samestellingsbestuurder gebaseer op libmutter en ontwerp deur "
+"elementêre vir gebruik met Pantheon."
+
+#: data/gala.metainfo.xml.in:23
+msgid "elementary, Inc."
+msgstr "elementêre, Inc."
+
+#: data/gala.metainfo.xml.in:30 data/gala.metainfo.xml.in:55
+#: data/gala.metainfo.xml.in:71 data/gala.metainfo.xml.in:86
+#: data/gala.metainfo.xml.in:98 data/gala.metainfo.xml.in:123
+msgid "Improvements:"
+msgstr "Verbeterings:"
+
+#: data/gala.metainfo.xml.in:32
+msgid ""
+"Changing the wallpaper or going to sleep respects the \"Reduce Motion\" "
+"option"
+msgstr ""
+"Om die muurpapier te verander of te gaan slaap, respekteer die opsie "
+"\"Verminder Beweging\""
+
+#: data/gala.metainfo.xml.in:33
+msgid "Use appropriate drag-and-drop pointers when moving windows"
+msgstr "Gebruik toepaslike sleep-en-neerwysers wanneer u vensters skuif"
+
+#: data/gala.metainfo.xml.in:34
+msgid "Fix the issue when gestures in the multitasking view might stop working"
+msgstr ""
+"Los die probleem op wanneer gebare in die multitasking-aansig kan ophou werk"
+
+#: data/gala.metainfo.xml.in:35
+msgid "Improve dynamic workspaces behaviour with multiple monitors"
+msgstr "Verbeter dinamiese werkruimtes se gedrag met veelvuldige monitors"
+
+#: data/gala.metainfo.xml.in:36 data/gala.metainfo.xml.in:58
+#: data/gala.metainfo.xml.in:73 data/gala.metainfo.xml.in:88
+#: data/gala.metainfo.xml.in:106 data/gala.metainfo.xml.in:128
+msgid "Updated translations"
+msgstr "Opgedateerde vertalings"
+
+#: data/gala.metainfo.xml.in:57
+msgid "Improve handling of move-to-workspace shortcut"
+msgstr "Verbeter die hantering van skuif-na-werkruimte-kortpad"
+
+#: data/gala.metainfo.xml.in:100
+msgid ""
+"Set the keyboard layout correctly at startup so that the indicator matches "
+"the selected layout"
+msgstr ""
+"Stel die sleutelborduitleg korrek in tydens die opstart sodat die aanwyser "
+"ooreenstem met die gekose uitleg"
+
+#: data/gala.metainfo.xml.in:101
+msgid "Fix screenshot keyboard shortcuts while in Multitasking View"
+msgstr ""
+"Maak skermkiekiesleutelbordkortpaaie reg terwyl jy in Multitasking View is"
+
+#: data/gala.metainfo.xml.in:102
+msgid ""
+"Correctly set the active workspace highlight when entering Multitasking View "
+"and animate 1:1 with multitouch gestures"
+msgstr ""
+"Stel die aktiewe werkruimte-hoogtepunt korrek in wanneer u Multitasking View "
+"betree en animeer 1: 1 met multitouch-gebare"
+
+#: data/gala.metainfo.xml.in:103
+msgid "Update panel color after dimming the wallpaper"
+msgstr "Dateer paneelkleur op nadat die muurpapier verdof is"
+
+#: data/gala.metainfo.xml.in:104
+msgid "Scale rounded corners per-display"
+msgstr "Skaal afgeronde hoeke per skerm"
+
+#: data/gala.metainfo.xml.in:105
+msgid "Support fractional scaling"
+msgstr "Ondersteun fraksionele skaal"
+
+#: data/gala.metainfo.xml.in:125
+msgid "Performance improvements"
+msgstr "Prestasie verbeterings"
+
+#: data/gala.metainfo.xml.in:126
+msgid "Remove texture from Multitasking View"
+msgstr "Verwyder tekstuur uit Multitasking-aansig"
+
+#: data/gala.metainfo.xml.in:127
+msgid "Avoid accidentally selecting windows in the window switcher"
+msgstr "Vermy die per ongeluk vensters in die vensterskakelaar"
+
+#: data/gala-multitaskingview.desktop.in:4
+#: data/gala-multitaskingview.desktop.in:6
+msgid "Multitasking View"
+msgstr "Multitasking-aansig"
+
+#: data/gala-multitaskingview.desktop.in:5
+msgid "View all open windows and workspaces"
+msgstr "Bekyk alle oop vensters en werkruimtes"
+
+#: data/gala-other.desktop.in:4
+msgid "Other"
+msgstr "Ander"
+
+#: data/gala-other.desktop.in:5
+msgid "Fallback desktop file for notifications from outdated applications."
+msgstr "Fallback-lessenaarlêer vir kennisgewings van verouderde toepassings."
+
+#~ msgid "Does the display look OK?"
+#~ msgstr "Lyk die skerm reg?"
+
+#~ msgid "Keep This Configuration"
+#~ msgstr "Behou Hierdie Konfigurasie"
+
+#~ msgid "Restore Previous Configuration"
+#~ msgstr "Herstel Vorige Konfigurasie"
